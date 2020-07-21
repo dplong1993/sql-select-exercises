@@ -1,4 +1,4 @@
-*****************************************************************************\
+/******************************************************************************\
 * AppAcademy JS/Py Online Week 10 - "Solving the SQL Menagerie"
 *
 *** Directions *****************************************************************
@@ -23,76 +23,78 @@
 ---- Phase 2: Write basic SELECT statements. -----------------------------------
 -- Retrieve rows from a table using SELECT ... FROM SQL statements.
 --------------------------------------------------------------------------------
+\echo ========= Problem 2.1 ====================================================
+\echo
 /*
 2.1) Write a SQL query that returns the city, state, and estimated population in
      2018 from the "cities" table.
 */
-\echo ========= Problem 2.1 ====================================================
-\echo
 ​
 -- your query here
 ​
+\echo ========= Problem 2.2 ====================================================
+\echo
 /*
 2.2) Write a SQL query that returns all of the airport names contained in the
      "airports" table.
 */
-\echo ========= Problem 2.2 ====================================================
-\echo
 ​
 -- your query here
 ​
 ---- Phase 3: Add WHERE clauses ------------------------------------------------
 -- Select specific rows from a table using WHERE and common operators.
 --------------------------------------------------------------------------------
+\echo ========= Problem 3.1 ====================================================
+\echo
 /*
 3.1) Write a SQL query that uses a WHERE clause to get the estimated population
      in 2018 of the city of San Diego.
 */
-\echo ========= Problem 3.1 ====================================================
-\echo
 ​
 -- your query here
 ​
+\echo ========= Problem 3.2 ====================================================
+\echo
 /*
 3.2) Write a SQL query that uses a WHERE clause to get the city, state, and
      estimated population in 2018 of cities in this list:
       Phoenix, Jacksonville, Charlotte, Nashville.
 */
-\echo ========= Problem 3.2 ====================================================
-\echo
 ​
  -- your query here
 ​
+\echo ========= Problem 3.3 ====================================================
+\echo
 /*
 3.3) Write a SQL query that uses a WHERE clause to get the cities with an
      estimated 2018 population between 800,000 and 900,000 people. Show the
      city, state, and estimated population in 2018 columns.
 */
-\echo ========= Problem 3.3 ====================================================
-\echo
 ​
 -- your query here
 ​
+\echo ========= Problem 3.4 ====================================================
+\echo
 /*
 3.4) Write a SQL query that uses a WHERE clause to get the names of the cities
      that had an estimated population in 2018 of at least 1 million people (or
      1,000,000 people).
 */
-\echo ========= Problem 3.4 ====================================================
-\echo
 ​
 -- your query here
 ​
+\echo ========= Problem 3.5 ====================================================
+\echo
 /*
 3.5) Write a SQL query to get the city and estimated population in 2018 in
      number of millions (i.e. without zeroes at the end: 1 million), and that
      uses a WHERE clause to return only the cities in Texas.
 */
-\echo ========= Problem 3.5 ====================================================
-\echo
 ​
 -- your query here
 ​
+\echo ========= Problem 3.6 ====================================================
+\echo
 /*
 3.6) Write a SQL query to get the city and estimated population in 2018 in
      number of millions (i.e. without zeroes at the end: 1 million), and that
@@ -101,52 +103,50 @@
      in 2018 of cities that are NOT in the following states:
      New York, California, Texas.
 */
-\echo ========= Problem 3.6 ====================================================
-\echo
 ​
 -- your query here
 ​
+\echo ========= Problem 3.7 ====================================================
+\echo
 /*
 3.7) Write a SQL query that uses a WHERE clause with the LIKE operator to get
      the city, state, and estimated population in 2018 of cities that start with
      the letter "S".
      (Note: See the PostgreSQL doc on Pattern Matching for more information.)
 */
-\echo ========= Problem 3.7 ====================================================
-\echo
 ​
 -- your query here
 ​
+\echo ========= Problem 3.8 ====================================================
+\echo
 /*
 3.8) Write a SQL query that uses a WHERE clause to find the cities with either a
      land area of over 400 square miles OR a population over 2 million people
      (or 2,000,000 people). Show the city name, the land area, and the estimated
      population in 2018.
 */
-\echo ========= Problem 3.8 ====================================================
-\echo
 ​
 -- your query here
 ​
+\echo ========= Problem 3.9 ====================================================
+\echo
 /*
 3.9) Write a SQL query that uses a WHERE clause to find the cities with either a
      land area of over 400 square miles OR a population over 2 million people
      (or 2,000,000 people) -- but not the cities that have both. Show the city
      name, the land area, and the estimated population in 2018.
 */
-\echo ========= Problem 3.9 ====================================================
-\echo
 ​
 -- your query here
 ​
+\echo ========= Problem 3.10 ===================================================
+\echo
 /*
 3.10) Write a SQL query that uses a WHERE clause to find the cities where the
       population has increased by over 200,000 people from 2010 to 2018. Show
       the city name, the estimated population in 2018, and the census population
       in 2010.
 */
-\echo ========= Problem 3.10 ===================================================
-\echo
 ​
 -- your query here
 ​
@@ -155,16 +155,18 @@
 -- The "airports" table has a foreign key called city_id that references the id
 -- column in the "cities" table.
 --------------------------------------------------------------------------------
+\echo ========= Problem 4.1 ====================================================
+\echo
 /*
 4.1) Write a SQL query using an INNER JOIN to join data from the "cities" table
      with data from the "airports" table using the city_id foreign key. Show the
      airport names and city names only.
 */
-\echo ========= Problem 4.1 ====================================================
-\echo
 ​
 -- your query here
 ​
+\echo ========= Problem 4.2 ====================================================
+\echo
 /*
 4.2) Write a SQL query using an INNER JOIN to join data from the "cities" table
      with data from the "airports" table to find out how many airports are in
@@ -172,8 +174,6 @@
      (Note: Use the aggregate function COUNT() to count the number of matching
       rows.)
 */
-\echo ========= Problem 4.2 ====================================================
-\echo
 ​
 -- your query here
 ​
@@ -181,6 +181,8 @@
 ---- Bonuses:
 --------------------------------------------------------------------------------
 ​
+\echo ========= Problem B.1 ====================================================
+\echo
 /*
 B.1) Apostrophe: Write a SQL query to get all three ID codes (the Federal
      Aviation Administration (FAA) ID, the International Air Transport
@@ -190,11 +192,11 @@ B.1) Apostrophe: Write a SQL query to get all three ID codes (the Federal
      (Note: You'll need to escape the quotation mark in O'Hare. See How to
       include a single quote in a SQL query.)
 */
-\echo ========= Problem B.1 ====================================================
-\echo
 ​
 -- your query here
 ​
+\echo ========= Problem B.2 ====================================================
+\echo
 /*
 B.2) Formatting Commas: Refactor Phase 2, Query #1 to turn the INT for estimated
      population in 2018 into a character string with commas. (Note: See Data
@@ -203,11 +205,11 @@ B.2) Formatting Commas: Refactor Phase 2, Query #1 to turn the INT for estimated
      * Phase 2, Query #1: Write a SQL query that returns the city, state, and
        estimated population in 2018 from the "cities" table.
 */
-\echo ========= Problem B.2 ====================================================
-\echo
 ​
 -- your query here
 ​
+\echo ========= Problem B.3 ====================================================
+\echo
 /*
 B.3) Decimals and Rounding: Refactor Phase 3, Query #5 to turn number of
      millions from an integer into a decimal rounded to a precision of two
@@ -219,11 +221,11 @@ B.3) Decimals and Rounding: Refactor Phase 3, Query #5 to turn number of
        end: 1 million), and that uses a WHERE clause to return only the cities
        in Texas.
 */
-\echo ========= Problem B.3 ====================================================
-\echo
 ​
 -- your query here
 ​
+\echo ========= Problem B.4 ====================================================
+\echo
 /*
 B.4) ORDER BY and LIMIT Clauses: Refactor Phase 3, Query #10 to return only one
      city with the biggest population increase from 2010 to 2018. Show the city
@@ -238,7 +240,7 @@ B.4) ORDER BY and LIMIT Clauses: Refactor Phase 3, Query #10 to return only one
        2010 to 2018. Show the city name, the estimated population in 2018, and
        the census population in 2010.
 */
-\echo ========= Problem B.4 ====================================================
-\echo
 ​
 -- your query here
+​
+\echo ========= (done!) ========================================================
