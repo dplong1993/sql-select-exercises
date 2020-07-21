@@ -1,0 +1,1 @@
+elect city, population_estimate_2018, population_census_2010 from cities where population_estimate_2018 - population_census_2010

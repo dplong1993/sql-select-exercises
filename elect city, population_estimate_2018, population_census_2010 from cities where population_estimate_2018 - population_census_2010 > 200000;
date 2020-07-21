@@ -1,0 +1,8 @@
+    city     | population_estimate_2018 | population_census_2010 
+-------------+--------------------------+------------------------
+ New York    |                  8398748 |                8175133
+ Houston     |                  2325502 |                2100263
+ Phoenix     |                  1660272 |                1445632
+ San Antonio |                  1532233 |                1327407
+(4 rows)
+
